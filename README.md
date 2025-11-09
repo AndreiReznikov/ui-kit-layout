@@ -1,10 +1,8 @@
-# MetaLamp layout project
+# Демо
 
-This is a training project to find hotel rooms, to which I have devoted quite a lot of time. It was a necessary and interesting experience. While I was doing this project, I realized what component layout, preprocessors, assemblers, plugins, and much more are. That was cool!
+[Ссылка на демо](https://andreireznikov.github.io/metalamp-layout-demo/)
 
-# Demo: https://andreireznikov.github.io/metalamp-layout-demo
-
-# Plugins:
+# Плагины
 
 - air-datepicker: ^2.2.3,
 - chart.js: ^3.4.1,
@@ -19,71 +17,65 @@ This is a training project to find hotel rooms, to which I have devoted quite a 
 - npm: 9.5.1
 - Node.js 18.16.1
 
-# Important
+# Работа с проектом
 
-Most of the commits were lost in the process, due to the inexperience of the author. The project files from the folder were moved manually to a remote repository.
-
-Due to incorrectly connected fonts at the initial stage of development, css files have become very large. An extension is used to track them .gitattributes. This issue has been fixed in the latest version.
-
-# Start
-
-First you have to create a copy of the remote repository locally:
+Создайте локальную копию репозитория:
 
 ```
 git clone https://github.com/AndreiReznikov/metalamp-layout
 ```
 
-Then you have to install all the necessary packages to work with the project. Use the following command in the local repository:
+Установите необходимые библиотеки для работы с проектом:
 
 ```
 npm install
 ```
 
-To start the project, use the command:
+Для запуска:
 
 ```
 npm run server
 ```
 
-# Npm commands
+# Комманды NPM
 
-- "prod": build a production bundle,
+- "prod": production сборка,
 
 ```
 npm run prod
 ```
 
-- "dev": build a development bundle,
+- "dev": development сборка,
 
 ```
 npm run dev
 ```
 
-- "server": start the local server,
+- "server": запуск,
 
 ```
 npm run server
 ```
 
-- "lint": check the project for eslint errors,
+- "lint": проверка eslint,
 
 ```
 npm run lint
 ```
 
-- "fix": fix eslint errors
+- "fix": исправление ошибок eslint
 
 ```
 npm run fix
 ```
 
-- "stylelint": check the project for stylelint errors,
+- "stylelint": проверка stylelint,
 
 ```
 npm run stylelint
 ```
 
-- "fix:stylelint": fix stylelint errors
+- "fix:stylelint": исправление ошибок stylelint
 
 ```
 npm run fix:stylelint
